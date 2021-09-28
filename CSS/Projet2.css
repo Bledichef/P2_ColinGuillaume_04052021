@@ -28,6 +28,26 @@ aside {
   padding-top: 10px;
 }
 
+nav {
+  display: grid;
+  grid-template-columns: 70% 30%;
+}
+
+.HebergementActivitees {
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+}
+
+.Filtres {
+  display: grid;
+  grid-template-columns: 20% 40% 20% 20%;
+}
+
+.iconEconoEtFamilial {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
 .contentsection {
   display: flex;
   flex-wrap: wrap;
@@ -50,6 +70,10 @@ aside {
 }
 
 .texteHebergement {
+  margin-left: 10px;
+}
+
+.TextePopulaire {
   margin-left: 10px;
 }
 
@@ -153,4 +177,12 @@ figure {
   display: grid;
   grid-template-columns: 27% 20% 27% 20%;
   grid-column-gap: 20px;
+}
+
+.etoilebleu {
+  color: #0065fc;
+}
+
+.etoilevide {
+  color: #f2f2f2;
 }
