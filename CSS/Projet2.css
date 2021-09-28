@@ -39,13 +39,23 @@ nav {
 }
 
 .Filtres {
-  display: grid;
-  grid-template-columns: 20% 40% 20% 20%;
+  margin-top: 20px;
+display: grid;
+grid-template-columns: 5% 50%;
 }
 
-.iconEconoEtFamilial {
+.AllFilter {
   display: grid;
-  grid-template-columns: 50% 50%;
+  grid-template-columns:170px 170px 170px 170px;
+  grid-column-gap: 20px;
+}
+
+.icon {
+  display: flex;
+  flex-wrap: wrap;
+  border-style: solid;
+  border-radius: 30px;
+  padding-left: 10px;
 }
 
 .contentsection {
