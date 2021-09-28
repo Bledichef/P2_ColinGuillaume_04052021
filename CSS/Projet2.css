@@ -216,3 +216,18 @@ figure {
 .logoinfo{
   color: #0065fc;
 }
+.Hebergementnav:hover {
+  border-top: 3px #0065fc solid;
+  color: blue;
+}
+.Hebergementnav{
+  padding-left: 14px;
+}
+
+.Activites01:hover {
+  border-top: 3px #0065fc solid;
+  color: blue;
+}
+.Activites01{
+  padding-left: 30px;
+}
