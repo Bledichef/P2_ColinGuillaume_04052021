@@ -9,6 +9,7 @@ section {
 
 footer {
   padding-left: 20px;
+  padding-bottom: 30px;
   background-color: #f2f2f281;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -195,4 +196,23 @@ figure {
 
 .etoilevide {
   color: #f2f2f2;
+}
+.fa-map-marker-alt{
+  background-color: #f2f2f2;
+  padding: 5px 10px 6px 15px;
+  border-radius: 10px 0 0 10px;
+}
+.textpersobarrederecherche{
+  border-style: solid;
+  border-color: #f2f2f2;
+  height: 21px;
+}
+.bouton-perso{
+  background-color: #0065fc;
+  color: white;
+  border-radius: 0 20px 20px 0;
+  height: 25px;
+}
+.logoinfo{
+  color: #0065fc;
 }
