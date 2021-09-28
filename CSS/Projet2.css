@@ -2,8 +2,7 @@
 
 section {
   background-color: #f2f2f281;
-  width: 63%;
-  padding-left: 20px;
+ padding-left: 20px;
   padding-right: 20px;
 }
 
@@ -17,8 +16,7 @@ footer {
 
 aside {
   background-color: #f2f2f281;
-  width: 30%;
-  display: grid;
+   display: grid;
   grid-template-rows: 10% 20% 20% 20%;
   grid-row-gap: 30px;
   padding-left: 15px;
@@ -66,8 +64,8 @@ grid-template-columns: 5% 50%;
 }
 
 .CarteHebergement {
-  width: 30%;
-  height: 30%;
+  width: 25%;
+  max-height: 30%;
   background-color: white;
   border-radius: 30px;
   border-style: solid;
@@ -82,6 +80,7 @@ grid-template-columns: 5% 50%;
 
 .texteHebergement {
   margin-left: 10px;
+  max-width: 100%;
 }
 
 .TextePopulaire {
@@ -104,9 +103,9 @@ grid-template-columns: 5% 50%;
 }
 
 .Hebergementetpluspopulaire {
-  display: flex;
-  justify-content: space-between;
-
+display: grid;
+grid-template-columns: 66% 33%;
+grid-column-gap: 20px;
 }
 
 .photoHotelsoleildumatin {
