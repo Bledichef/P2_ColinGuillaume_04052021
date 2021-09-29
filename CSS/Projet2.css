@@ -189,6 +189,7 @@ grid-column-gap: 20px;
   height: 75%;
   max-width: 100%;
   object-fit: cover;
+  width: 100%;
 }
 
 .photoCalanques {
@@ -381,6 +382,13 @@ nav{
   border-top: none;
   border-bottom: 3px #0065fc solid;
   color: blue;
+}
+footer{
+  display: block;
+  width: 100%;
+}
+.ContentActivity{
+  max-height: 250px;
 }
 
  }  
