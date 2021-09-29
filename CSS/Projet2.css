@@ -171,40 +171,49 @@ grid-column-gap: 20px;
 }
 
 .photoVieuxport {
+  border-radius: 20px 20px 0 0;
   height: 90%;
   width: 100%;
   object-fit: cover;
 }
 
 .photoFort {
+  border-radius: 20px 20px 0 0;
   height: 80%;
   width: 100%;
+  object-fit: cover;
 }
 
 .photoiles {
+  border-radius: 20px 20px 0 0;
   height: 75%;
   max-width: 100%;
+  object-fit: cover;
 }
 
 .photoCalanques {
-  
+  border-radius: 20px 20px 0 0;
+  object-fit: cover;
   height: 90%;
   width: 100%;
   object-fit: cover;
 }
 
 .photoDamedelagarde {
+  border-radius: 20px 20px 0 0;
   width: 100%;
   height: 80%;
+  object-fit: cover;
 }
 
 .photolomgchamp {
+  border-radius: 20px 20px 0 0;
   width: 100%;
   height: 80%;
 }
 
 figure {
-
+  margin-bottom: 40px;
   max-width: 100%;
   margin-inline-start: 10px;
   margin-inline-end: 10px;
@@ -279,6 +288,9 @@ figure {
 .ContentActivity{
   width: 100%;
   height: 100%;
+  border: 3px #f2f2f2 solid;
+  border-radius: 30px;
+  box-shadow:  0.3px 0.5px 1px rgb(0 0 0 / 5%), 2px 4px 8px rgb(0 0 0 / 10%);
 }
 
 
