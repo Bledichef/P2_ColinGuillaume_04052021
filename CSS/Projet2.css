@@ -50,11 +50,16 @@ grid-template-columns: 5% 50%;
 }
 
 .icon {
+  font-weight: bold;
   display: flex;
   flex-wrap: wrap;
   border-style: solid;
   border-radius: 30px;
   border-color: #deebff;
+}
+.icon:hover{
+  color: #0065fc;
+
 }
 
 .contentsection {
@@ -62,7 +67,13 @@ grid-template-columns: 5% 50%;
   flex-wrap: wrap;
   justify-content: space-between;
 }
-
+.LiensSection{
+  text-decoration: none;
+  color: black;
+}
+h6{
+  color: #706f6f;
+}
 .CarteHebergement {
   width: 25%;
   max-height: 30%;
@@ -88,6 +99,7 @@ grid-template-columns: 5% 50%;
 }
 
 .cartepopulaire {
+  color: black;
   text-decoration: none;
   display: flex;
   background-color: white;
@@ -100,6 +112,8 @@ grid-template-columns: 5% 50%;
 
 .populaire {
   padding-top: 10px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .Hebergementetpluspopulaire {
@@ -228,7 +242,7 @@ figure {
 }
 .Hebergementnav{
   padding-left: 14px;
-  color: black;
+  color: #706f6f;
   text-decoration: none;
 }
 
@@ -238,10 +252,10 @@ figure {
 }
 .Activites01{
   padding-left: 30px;
-  color: black;
+  color: #706f6f;
   text-decoration: none;
 }
 .Inscrire{
-  color: black;
+  color: #706f6f;
   text-decoration: none;
 }
