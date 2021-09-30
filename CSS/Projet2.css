@@ -50,6 +50,7 @@ grid-template-columns: 5% 50%;
 }
 
 .icon {
+  height: 30px;
   font-weight: bold;
   display: flex;
   flex-wrap: wrap;
@@ -263,11 +264,15 @@ figure {
   color: #0065fc;
 }
 .logo{
+  padding-top: 7px;
   color: #0065fc;
   background-color: #deebff;
   border-radius: 30px;
   width: 25px;
-  height: 20px;
+  height: 30px;
+}
+.fa-search{
+  color: white;
 }
 .Hebergementnav:hover {
   border-top: 3px #0065fc solid;
@@ -351,6 +356,15 @@ section{
 figure{
   width: 100%;
 display: block;
+}
+.bouton-perso{
+  color: #0065fc;
+  width: 40px;
+}
+.fa-search{
+  position: absolute;
+  right: 120px;
+  padding-top: 5px;
 }
 .Filtres{
   display: block;
