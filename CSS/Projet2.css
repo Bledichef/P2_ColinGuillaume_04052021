@@ -143,31 +143,37 @@ grid-column-gap: 20px;
 .photoAuBergeCannebiere {
   width: 100%;
   border-radius: 20px 20px 0 0;
+  object-fit: cover;
 }
 
 .photoHotelduport {
   width: 100%;
   border-radius: 20px 20px 0 0;
+  object-fit: cover;
 }
 
 .photoHotellesmouettes {
   width: 100%;
   border-radius: 20px 20px 0 0;
+  object-fit: cover;
 }
 
 .photoHoteldelamer {
   width: 100%;
   border-radius: 20px 20px 0 0;
+  object-fit: cover;
 }
 
 .photoHotelchezAmina {
   width: 100%;
   border-radius: 20px 20px 0 0;
+  object-fit: cover;
 }
 
 .photoAubergelePanier {
   width: 100%;
   border-radius: 20px 20px 0 0;
+  object-fit: cover;
 }
 
 .photoVieuxport {
@@ -317,7 +323,10 @@ figure {
 text-decoration: none;
 color: black;
 }
-
+.Afficher{
+  text-decoration: none;
+  color: black;
+}
 
 
                                                      /* Version Mobile */
@@ -390,5 +399,49 @@ footer{
 .ContentActivity{
   max-height: 250px;
 }
+.CarteHebergement{
+  max-height: 300px;
+  margin-bottom: 30px;
+}
+.photoAuBergeCannebiere {
+  width: 100%;
+  height: 60%;
+  border-radius: 20px 20px 0 0;
+  object-fit: cover;
+}
 
+.photoHotelduport {
+  width: 100%;
+  height: 60%;
+  border-radius: 20px 20px 0 0;
+  object-fit: cover;
+}
+
+.photoHotellesmouettes {
+  width: 100%;
+  border-radius: 20px 20px 0 0;
+  height: 60%;
+  object-fit: cover;
+}
+
+.photoHoteldelamer {
+  width: 100%;
+  border-radius: 20px 20px 0 0;
+  height: 60%;
+  object-fit: cover;
+}
+
+.photoHotelchezAmina {
+  width: 100%;
+  border-radius: 20px 20px 0 0;
+  height: 60%;
+  object-fit: cover;
+}
+
+.photoAubergelePanier {
+  width: 100%;
+  border-radius: 20px 20px 0 0;
+  height: 60%;
+  object-fit: cover;
+}
  }  
