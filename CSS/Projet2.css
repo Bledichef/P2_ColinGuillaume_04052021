@@ -357,6 +357,12 @@ figure{
   width: 100%;
 display: block;
 }
+h4{
+  margin-left: 20px;
+}
+.fortiles{
+  grid-template-rows: 50%;
+}
 .bouton-perso{
   color: #0065fc;
   width: 40px;
@@ -411,7 +417,8 @@ footer{
   width: 100%;
 }
 .ContentActivity{
-  max-height: 250px;
+  margin-bottom: 30px;
+  max-height: 300px;
 }
 .CarteHebergement{
   max-height: 300px;
