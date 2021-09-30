@@ -476,3 +476,15 @@ footer{
   object-fit: cover;
 }
  }  
+
+                                 /*  Version Tablette */
+
+@media screen and (min-width: 576px){
+
+  nav{
+    grid-template-columns: 50% 50%;
+  }
+.Hebergementetpluspopulaire{
+  display: block;
+}  
+}
