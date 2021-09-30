@@ -487,4 +487,16 @@ footer{
 .Hebergementetpluspopulaire{
   display: block;
 }  
+.Filtres{
+  display: inline-table;
+}
+.DameParc{
+  grid-template-rows: 40%;
+  grid-row-gap: 40px;
+}
+aside{
+  grid-row-gap: 40px;
+  grid-template-rows: 10% 25% 25% 25%;
+  
+}
 }
