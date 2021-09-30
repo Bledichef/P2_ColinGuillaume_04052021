@@ -4,13 +4,15 @@ body{
   max-width: 100%;
 }
 section {
+  width: 100%;
   background-color: #f2f2f281;
  padding-left: 20px;
   padding-right: 20px;
 }
 
 footer {
-  padding-left: 20px;
+  padding-top: 30px;
+  padding-left: 30px;
   padding-bottom: 30px;
   background-color: #f2f2f281;
   display: grid;
@@ -48,14 +50,14 @@ grid-template-columns: 5% 50%;
 
 .AllFilter {
   display: grid;
-  grid-template-columns:170px 170px 170px 170px;
+  grid-template-columns:170px 170px 170px 190px;
   grid-column-gap: 20px;
 }
 
 .icon {
-  height: 30px;
+  height: 37px;
   font-weight: bold;
-  display: flex;
+  display: flow-root;
   flex-wrap: wrap;
   border-style: solid;
   border-radius: 30px;
@@ -234,11 +236,11 @@ figure {
 }
 .fortiles{
   display: grid;
-  grid-template-rows: 60% 40%;
+  grid-template-rows: 55% 45%;
 }
 .DameParc{
   display: grid;
-  grid-template-rows: 50% 50%;
+  grid-template-rows: 55% 45%;
 }
 .etoilebleu {
   color: #0065fc;
@@ -253,6 +255,7 @@ figure {
   border-radius: 10px 0 0 10px;
 }
 .textpersobarrederecherche{
+  width: 130px;
   border-style: solid;
   border-color: #f2f2f2;
   height: 21px;
@@ -313,6 +316,7 @@ figure {
   color: black;
 }
 .Fortdepomègues{
+  margin-bottom: 60px;
   text-decoration: none;
   color: black;
 }
@@ -325,6 +329,7 @@ figure {
   color: black;
 }
 .Notre-Dame-de-la-Garde{
+  margin-bottom: 60px;
   text-decoration: none;
   color: black;
 }
@@ -336,7 +341,9 @@ color: black;
   text-decoration: none;
   color: black;
 }
-
+h4{
+  margin-left: 20px;
+}
 
                                                      /* Version Mobile */
 
@@ -347,33 +354,33 @@ color: black;
   flex-direction: column-reverse;
 }
 aside{
-  width: 100%;
+  width: 94%;
   grid-template-rows: 12% 23% 23% 23%;
   grid-row-gap: 24px;
 }
 section{
   margin-top: 30px;
-  width: 100%;
+  max-width: 90%;
 }
 .CarteHebergement{
   width: 90%;
   }
 figure{
-  width: 100%;
+  width: 95%;
 display: block;
+margin-inline-start: 5px;
+margin-inline-end: 0px;
 }
 h3{
   font-size: larger;
 }
-h4{
-  margin-left: 20px;
-}
+
 .fortiles{
   grid-template-rows: 50%;
 }
 .bouton-perso{
   color: #0065fc;
-  width: 40px;
+  width: 80px;
 }
 .fa-search{
   position: absolute;
@@ -423,6 +430,8 @@ nav{
   color: blue;
 }
 footer{
+  padding-left: 5px;
+  margin-inline-start: 0px;
   display: block;
   width: 100%;
 }
@@ -475,17 +484,24 @@ footer{
   height: 60%;
   object-fit: cover;
 }
+.Notre-Dame-de-la-Garde{
+  margin-bottom: 0px;
+}
+.Fortdepomègues{
+  margin-bottom: 0px;
+}
  }  
 
                                  /*  Version Tablette */
 
-@media screen and (min-width: 576px){
+@media screen and (min-width: 576px) and (max-width:992px){
 
   nav{
     grid-template-columns: 50% 50%;
   }
 .Hebergementetpluspopulaire{
-  display: block;
+  display: flex;
+  flex-direction: column-reverse;
 }  
 .Filtres{
   display: inline-table;
@@ -496,7 +512,24 @@ footer{
 }
 aside{
   grid-row-gap: 40px;
-  grid-template-rows: 10% 25% 25% 25%;
-  
-}
+  grid-template-rows: 5% 25% 25% 25%;
+  }
+  figure{
+    margin-inline-end: 30px;
+  }
+  .Notre-Dame-de-la-Garde{
+    margin-bottom: 0px;
+  }
+  .photoDamedelagarde{
+    height: 65%;
+  }
+  .photolomgchamp{
+    height: 70%;
+  }
+  .photoFort{
+    height: 70%;
+  }
+  .photoCalanques{
+    height: 85%;
+  }
 }
