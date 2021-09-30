@@ -348,10 +348,11 @@ color: black;
 }
 aside{
   width: 100%;
-  grid-template-rows: 23% 23% 23% 23%;
+  grid-template-rows: 12% 23% 23% 23%;
   grid-row-gap: 24px;
 }
 section{
+  margin-top: 30px;
   width: 100%;
 }
 .CarteHebergement{
@@ -360,6 +361,9 @@ section{
 figure{
   width: 100%;
 display: block;
+}
+h3{
+  font-size: larger;
 }
 h4{
   margin-left: 20px;
