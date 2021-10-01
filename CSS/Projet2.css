@@ -123,9 +123,10 @@ h6{
 }
 
 .Hebergementetpluspopulaire {
+  width: 100%;
 display: grid;
-grid-template-columns: 66% 33%;
-grid-column-gap: 20px;
+grid-template-columns: 60% 33%;
+grid-column-gap: 7%;
 }
 
 .photoHotelsoleildumatin {
@@ -355,7 +356,7 @@ h4{
 }
 aside{
   width: 94%;
-  grid-template-rows: 12% 23% 23% 23%;
+  grid-template-rows: 12% 24% 24% 24%;
   grid-row-gap: 24px;
 }
 section{
@@ -499,6 +500,12 @@ footer{
   nav{
     grid-template-columns: 50% 50%;
   }
+  .AllFilter{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    grid-row-gap: 10px;
+  }
 .Hebergementetpluspopulaire{
   display: flex;
   flex-direction: column-reverse;
@@ -509,6 +516,9 @@ footer{
 .DameParc{
   grid-template-rows: 40%;
   grid-row-gap: 40px;
+}
+section{
+  padding-left: 0px;
 }
 aside{
   grid-row-gap: 40px;
