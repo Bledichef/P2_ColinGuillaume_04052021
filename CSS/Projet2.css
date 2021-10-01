@@ -345,6 +345,12 @@ color: black;
 h4{
   margin-left: 20px;
 }
+.fa-chart-line{
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  font-weight: bold;
+  font-size: 1.5em;
+}
 
                                                      /* Version Mobile */
 
