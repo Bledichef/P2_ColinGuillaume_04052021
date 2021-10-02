@@ -280,7 +280,8 @@ figure {
   padding-left: 5px;
 }
 .fa-search{
-  color: white;
+  
+  color: #0065fc;
 }
 .Hebergementnav:hover {
   border-top: 3px #0065fc solid;
@@ -352,6 +353,7 @@ h4{
   font-size: 1.5em;
 }
 
+
                                                      /* Version Mobile */
 
 
@@ -387,12 +389,11 @@ h3{
 }
 .bouton-perso{
   color: #0065fc;
-  width: 80px;
+ 
 }
 .fa-search{
-  position: absolute;
-  right: 120px;
-  padding-top: 5px;
+  color: white;
+  width: auto;  
 }
 .Filtres{
   display: block;
