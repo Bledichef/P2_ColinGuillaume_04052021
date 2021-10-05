@@ -432,7 +432,9 @@ nav{
   border-bottom: 3px #0065fc solid;
   color: blue;
 }
-
+.cartepopulaire{
+  height: 165px;
+}
 .Activites01:hover {
   border-top: none;
   border-bottom: 3px #0065fc solid;
