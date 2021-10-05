@@ -447,6 +447,8 @@ footer{
 .ContentActivity{
   margin-bottom: 30px;
   max-height: 280px;
+  height: 400px;
+  padding-bottom: 30px;
 }
 .CarteHebergement{
   max-height: 300px;
