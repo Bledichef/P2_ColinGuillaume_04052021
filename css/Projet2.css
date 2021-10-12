@@ -1,12 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
-*{
-  font-family: "Raleway";
-}
-img{
-  object-fit: cover;
-}
-
 body{
   max-width: 100%;
 }
@@ -41,7 +34,7 @@ aside {
 
 nav {
   display: grid;
-  grid-template-columns: 60% 40%;
+  grid-template-columns: 70% 30%;
 }
 
 .HebergementActivitees {
@@ -56,7 +49,6 @@ grid-template-columns: 5% 50%;
 }
 
 .AllFilter {
-  margin-top: 10px;
   display: grid;
   grid-template-columns:170px 170px 170px 190px;
   grid-column-gap: 20px;
@@ -235,7 +227,6 @@ grid-column-gap: 7%;
 }
 
 figure {
-  max-height: 500px;
   margin-bottom: 40px;
   max-width: 100%;
   margin-inline-start: 10px;
@@ -245,12 +236,10 @@ figure {
   grid-column-gap: 20px;
 }
 .fortiles{
-  max-height: 500px;
   display: grid;
-  grid-template-rows: 65% 35%;
+  grid-template-rows: 55% 45%;
 }
 .DameParc{
-  max-height: 500px;
   display: grid;
   grid-template-rows: 55% 45%;
 }
@@ -299,7 +288,6 @@ figure {
   color: blue;
 }
 .Hebergementnav{
-  border-top: 3px white solid;
   padding-left: 14px;
   color: #706f6f;
   text-decoration: none;
@@ -307,17 +295,15 @@ figure {
 
 .Activites01:hover {
   border-top: 3px #0065fc solid;
-  color: #0065fc;
+  color: blue;
 }
 .Activites01{
-  border-top: 3px white solid;
   padding-left: 30px;
   color: #706f6f;
   text-decoration: none;
 }
 .Inscrire{
-  border-top: 3px white solid;
-  color: blue;
+  color: #706f6f;
   text-decoration: none;
 }
 .ContentActivity{
@@ -328,12 +314,11 @@ figure {
   box-shadow:  0.3px 0.5px 1px rgb(0 0 0 / 5%), 2px 4px 8px rgb(0 0 0 / 10%);
  }
 .Vieuxport{
-  max-height: 500px;
   text-decoration: none;
   color: black;
 }
 .Fortdepomègues{
-  margin-bottom: 30px;
+  margin-bottom: 60px;
   text-decoration: none;
   color: black;
 }
@@ -342,12 +327,11 @@ figure {
   color: black;
 }
 .ParcNationaldesCalanques{
-  max-height: 500px;
   text-decoration: none;
   color: black;
 }
 .Notre-Dame-de-la-Garde{
-  margin-bottom: 30px;
+  margin-bottom: 60px;
   text-decoration: none;
   color: black;
 }
@@ -384,7 +368,6 @@ aside{
   grid-row-gap: 24px;
 }
 section{
-  background-color: white;
   margin-top: 30px;
   max-width: 90%;
 }
@@ -392,7 +375,6 @@ section{
   width: 90%;
   }
 figure{
-  max-height: none;
   width: 95%;
 display: block;
 margin-inline-start: 5px;
@@ -403,11 +385,6 @@ h3{
 }
 
 .fortiles{
-  max-height: none;
-  grid-template-rows: 50%;
-}
-.DameParc{
-  max-height: none;
   grid-template-rows: 50%;
 }
 .bouton-perso{
@@ -429,7 +406,6 @@ h3{
   grid-column-gap: 0px;
 }
 .icon4{
-  width: 110%;
   grid-row-end: 4;
 }
 nav{
@@ -526,12 +502,6 @@ footer{
 }
 .Fortdepomègues{
   margin-bottom: 0px;
-}
-.Vieuxport{
-  max-height: none;
-}
-.photoiles{
-  height: 85%;
 }
  }  
 
