@@ -306,7 +306,7 @@ figure {
 
 .Activites01:hover {
   border-top: 3px #0065fc solid;
-  color: blue;
+  color: #0065fc;
 }
 .Activites01{
   border-top: 3px white solid;
@@ -315,7 +315,8 @@ figure {
   text-decoration: none;
 }
 .Inscrire{
-  color: #706f6f;
+  border-top: 3px white solid;
+  color: blue;
   text-decoration: none;
 }
 .ContentActivity{
