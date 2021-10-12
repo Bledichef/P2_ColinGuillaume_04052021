@@ -3,6 +3,9 @@
 *{
   font-family: "Raleway";
 }
+img{
+  object-fit: cover;
+}
 
 body{
   max-width: 100%;
@@ -413,6 +416,7 @@ h3{
   grid-column-gap: 0px;
 }
 .icon4{
+  width: 110%;
   grid-row-end: 4;
 }
 nav{
