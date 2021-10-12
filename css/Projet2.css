@@ -234,6 +234,7 @@ grid-column-gap: 7%;
 }
 
 figure {
+  max-height: 500px;
   margin-bottom: 40px;
   max-width: 100%;
   margin-inline-start: 10px;
@@ -243,10 +244,12 @@ figure {
   grid-column-gap: 20px;
 }
 .fortiles{
+  max-height: 500px;
   display: grid;
-  grid-template-rows: 55% 45%;
+  grid-template-rows: 65% 35%;
 }
 .DameParc{
+  max-height: 500px;
   display: grid;
   grid-template-rows: 55% 45%;
 }
@@ -323,11 +326,12 @@ figure {
   box-shadow:  0.3px 0.5px 1px rgb(0 0 0 / 5%), 2px 4px 8px rgb(0 0 0 / 10%);
  }
 .Vieuxport{
+  max-height: 500px;
   text-decoration: none;
   color: black;
 }
 .Fortdepomègues{
-  margin-bottom: 60px;
+  margin-bottom: 30px;
   text-decoration: none;
   color: black;
 }
@@ -336,11 +340,12 @@ figure {
   color: black;
 }
 .ParcNationaldesCalanques{
+  max-height: 500px;
   text-decoration: none;
   color: black;
 }
 .Notre-Dame-de-la-Garde{
-  margin-bottom: 60px;
+  margin-bottom: 30px;
   text-decoration: none;
   color: black;
 }
@@ -385,6 +390,7 @@ section{
   width: 90%;
   }
 figure{
+  max-height: none;
   width: 95%;
 display: block;
 margin-inline-start: 5px;
@@ -395,6 +401,11 @@ h3{
 }
 
 .fortiles{
+  max-height: none;
+  grid-template-rows: 50%;
+}
+.DameParc{
+  max-height: none;
   grid-template-rows: 50%;
 }
 .bouton-perso{
@@ -513,6 +524,12 @@ footer{
 }
 .Fortdepomègues{
   margin-bottom: 0px;
+}
+.Vieuxport{
+  max-height: none;
+}
+.photoiles{
+  height: 85%;
 }
  }  
 
