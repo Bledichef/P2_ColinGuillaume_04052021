@@ -16,7 +16,10 @@ section {
  padding-left: 20px;
   padding-right: 20px;
 }
-
+header{
+  width: 95%;
+  margin: auto;
+}
 footer {
   padding-top: 30px;
   padding-left: 30px;
@@ -40,8 +43,10 @@ aside {
 }
 
 nav {
+  width: 95%;
+  margin: auto;
   display: grid;
-  grid-template-columns: 60% 40%;
+  grid-template-columns: 65% 36%;
 }
 
 .HebergementActivitees {
@@ -73,9 +78,11 @@ grid-template-columns: 5% 50%;
 }
 .icon:hover{
   color: #0065fc;
-
 }
-
+.activitétext{
+  width: 95%;
+  margin: auto;
+}
 .contentsection {
   display: flex;
   flex-wrap: wrap;
@@ -89,6 +96,7 @@ h6{
   color: #706f6f;
 }
 .CarteHebergement {
+  
   width: 25%;
   max-height: 30%;
   background-color: white;
@@ -101,9 +109,11 @@ h6{
   padding-bottom: 20px;
   box-shadow: 0.3px 0.5px 1px rgba(0, 0, 0, 5%),
     2px 4px 8px rgba(0, 0, 0, 10%);
+    
 }
 
 .texteHebergement {
+  
   margin-left: 10px;
   max-width: 100%;
 }
@@ -131,10 +141,11 @@ h6{
 }
 
 .Hebergementetpluspopulaire {
-  width: 100%;
-display: grid;
-grid-template-columns: 60% 33%;
-grid-column-gap: 7%;
+  margin: auto;
+  width: 95%;
+  display: grid;
+  grid-template-columns: 65% 30%;
+  grid-column-gap: 5%;
 }
 
 .photoHotelsoleildumatin {
@@ -207,7 +218,7 @@ grid-column-gap: 7%;
 
 .photoiles {
   border-radius: 20px 20px 0 0;
-  height: 75%;
+  height: 58%;
   max-width: 100%;
   object-fit: cover;
   width: 100%;
@@ -243,6 +254,9 @@ figure {
   display: grid;
   grid-template-columns: 27% 20% 27% 20%;
   grid-column-gap: 20px;
+  width: 95%;
+  margin: auto;
+  padding-bottom: 60px;
 }
 .fortiles{
   max-height: 500px;
@@ -376,6 +390,8 @@ h4{
 
  @media screen and (max-width: 575px) {
 .Hebergementetpluspopulaire{
+  margin: 0%;
+  width: 100%;
   display: flex;
   flex-direction: column-reverse;
 }
@@ -544,7 +560,7 @@ footer{
 @media screen and (min-width: 576px) and (max-width:992px){
 
   nav{
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 30% 70%;
   }
   .AllFilter{
     display: flex;
