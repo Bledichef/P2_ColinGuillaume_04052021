@@ -58,7 +58,7 @@ nav {
 .Filtres {
   margin-top: 20px;
 display: grid;
-grid-template-columns: 5% 50%;
+grid-template-columns: 10% 50%;
 }
 
 .AllFilter {
