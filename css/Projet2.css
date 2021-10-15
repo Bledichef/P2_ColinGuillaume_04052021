@@ -77,7 +77,19 @@ grid-template-columns: 10% 50%;
   border-radius: 30px;
   border-color: #deebff;
 }
+.icon4 {
+  height: 37px;
+  font-weight: bold;
+  display: flow-root;
+  flex-wrap: wrap;
+  border-style: solid;
+  border-radius: 30px;
+  border-color: #deebff;
+}
 .icon:hover{
+  color: #0065fc;
+}
+.icon4:hover{
   color: #0065fc;
 }
 .activitétext{
@@ -464,8 +476,11 @@ position: fixed;
   grid-row-gap: 10px;
   grid-column-gap: 0px;
 }
+.icon{
+  width: 140px;
+}
 .icon4{
-  width: 120%;
+  width: 130%;
   grid-row-end: 4;
 }
 nav{
