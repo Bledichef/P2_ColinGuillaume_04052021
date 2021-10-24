@@ -328,7 +328,7 @@ figure {
 }
 .Hebergementnav:hover {
   border-top: 3px #0065fc solid;
-  color: blue;
+  color: #0065fc;
 }
 .Hebergementnav{
   border-top: 3px white solid;
@@ -349,7 +349,7 @@ figure {
 }
 .Inscrire{
   border-top: 3px white solid;
-  color: blue;
+  color: #0065fc;
   text-decoration: none;
 }
 .ContentActivity{
